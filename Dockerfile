@@ -24,7 +24,11 @@ RUN apt-get update && apt-get install -y -t unstable \
 #    cp -R /usr/local/lib/R/site-library/shiny/examples/* /srv/shiny-server/ && \
 #    rm -rf /var/lib/apt/lists/*
 
-RUN git clone 
+RUN git clone https://github.com/stevetsa/shiny && \
+    cp -R /shiny/app /srv/shiny-server/ && \
+    cp -R /shiny/log /var/log/shiny-server/ && \
+    rm -rf /var/lib/apt/lists/*
+
 EXPOSE 3838
 
 COPY shiny-server.sh /usr/bin/shiny-server.sh
