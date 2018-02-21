@@ -1,6 +1,6 @@
 ADOPTED from 
-# Original Dockerfile obtained from Winston Chang "winston@rstudio.com"
-# https://github.com/rocker-org/shiny
+Original Dockerfile obtained from Winston Chang "winston@rstudio.com"
+https://github.com/rocker-org/shiny
 
 Docker for Shiny Server
 =======================
@@ -42,10 +42,5 @@ docker run -d -p 80:3838 \
 ```
 
 
-Trademarks
-
-Shiny and Shiny Server are registered trademarks of RStudio, Inc. The use of the trademarked terms Shiny and Shiny Server and the distribution of the Shiny Server through the images hosted on hub.docker.com has been granted by explicit permission of RStudio. Please review RStudio's trademark use policy and address inquiries about further distribution or other questions to permissions@rstudio.com.
+Trademarks - Shiny and Shiny Server are registered trademarks of RStudio, Inc. The use of the trademarked terms Shiny and Shiny Server and the distribution of the Shiny Server through the images hosted on hub.docker.com has been granted by explicit permission of RStudio. Please review RStudio's trademark use policy and address inquiries about further distribution or other questions to permissions@rstudio.com.
 =======
- shiny
-
-## End-of-file
