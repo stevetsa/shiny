@@ -7,7 +7,7 @@ Docker for Shiny Server
 
 This is a Dockerfile for Shiny Server on Debian "testing". It is based on the r-base image.
 
-The image is available from [Docker Hub](https://registry.hub.docker.com/u/rocker/shiny/).
+The image is available from [Docker Hub](https://registry.hub.docker.com/u/stevetsa/shiny/).
 
 As of January 2017, the Shiny Server log is written to `stdout` and can be viewed using `docker logs`. The logs for individual apps are in the `/var/log/shiny-server` directory, as described in the [Shiny Server Administrator's Guide]( http://docs.rstudio.com/shiny-server/#application-error-logs)
 
